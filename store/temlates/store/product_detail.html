@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ product.title }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="anime-theme">
+    <h1>{{ product.title }}</h1>
+    <img src="{{ product.image.url }}" width="300">
+    <p>{{ product.description }}</p>
+    <p>Цена: ${{ product.price }}</p>
+    <a href="/">Назад</a>
+</body>
+</html>
